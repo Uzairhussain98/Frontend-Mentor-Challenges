@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Comforter+Brush&family=Fira+Sans:ital,wght@0,100;0,400;1,200&family=Mr+Dafoe&family=Outfit&family=Press+Start+2P&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,500&family=VT323&display=swap");
+body {
+  background-color: hsl(212, 45%, 89%);
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  /* align-items: center; */
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: aqua; */
+}
+.component {
+  background-color: rgb(255, 255, 255);
+  width: 280px;
+  /* background-color: aliceblue; */
+  text-align: center;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: "Outfit";
+}
+.component > img {
+  width: 280px;
+  border-radius: 15px;
+}
+.component > p {
+  color: grey;
+}
+.component > h3 {
+  /* color: grey; */
+  font-size: 22px;
+  /* background-color: aqua; */
+  /* margin: 0px; */
+  /* text-justify: center; */
+  /* text-align-last: center; */
+
+  /* width: 100%; */
+  /* background-color: aqua; */
+}
