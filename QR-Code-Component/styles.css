@@ -28,13 +28,13 @@ body {
   color: grey;
 }
 .component > h3 {
-  /* color: grey; */
   font-size: 22px;
-  /* background-color: aqua; */
-  /* margin: 0px; */
-  /* text-justify: center; */
-  /* text-align-last: center; */
+}
+.attribution {
+  font-size: 17px;
+  text-align: center;
+}
 
-  /* width: 100%; */
-  /* background-color: aqua; */
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
