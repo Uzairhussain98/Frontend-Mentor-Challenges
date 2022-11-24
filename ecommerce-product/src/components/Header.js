@@ -22,9 +22,24 @@ const Header = () => {
         </div>
         {/* Right Side Of Nav */}
         <div className="nav_right">
-          <img src={cart} alt="" className="cart" />
-          <img src={avatar} alt="" className="avatar" />
+          <div className="dropdown">
+            <img src={cart} alt="" className="cart" />
+            <div className="dropdown-cart">
+              <a href="#/">My Profile</a>
+              <a href="#/">My CAr</a>
+              <a href="#/">Signout</a>
+            </div>
+          </div>
+          <div className="dropdown">
+            <img src={avatar} alt="" className="avatar" />
+            <div className="dropdown-content">
+              <a href="#/">My Profile</a>
+              <a href="#/">My Orders</a>
+              <a href="#/">Signout</a>
+            </div>
+          </div>
         </div>
+
         <img src={hamburger} alt="hamburger" className="hamburger" />
       </div>
     </div>

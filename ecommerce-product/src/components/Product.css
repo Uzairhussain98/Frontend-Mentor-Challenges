@@ -151,4 +151,13 @@
   .adtocart {
     width: 180px;
   }
+  .price_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .price_container > h4 {
+    margin-top: 15px;
+    margin-right: 20px;
+  }
 }
